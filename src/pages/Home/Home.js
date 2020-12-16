@@ -8,7 +8,7 @@ function Home() {
       <Navbaroo />
       <header className="App-header">
         <h1>
-          Welcome friend.
+          <span style={{ color: '#81d8f7'}}>Welcome friend.</span>
         </h1>
         <h3>
           Have a look around. If you have any questions, <br />
