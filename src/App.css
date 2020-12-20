@@ -3,10 +3,11 @@
 @import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
 
 .App {
-  text-align: center;
+
 }
 
 .App-header {
+  text-align: center;
   background-color: #282c34;
   min-height: 55vh;
   display: flex;
@@ -15,4 +16,39 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.Home-header {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.contentSection {
+  margin-top: 10em;
+}
+
+.quoteContainer {
+  margin-top: 5em;
+  margin-bottom: 15em;
+}
+
+.booksContainer {
+  margin-top: 5em;
+  margin-bottom: 15em;
+}
+
+.quoteSection {
+  margin-top: 2em;
+}
+
+.bookSection {
+  margin-top: 2em;
 }
