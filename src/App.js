@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home/Home'
 import Projects from './pages/Projects/Projects'
 import Work from './pages/Work/Work'
-import ReadingList from './pages/ReadingList/ReadingList'
+import Books from './pages/Books/Books'
 import Quotes from './pages/Quotes/Quotes'
 
 import {
@@ -31,7 +31,7 @@ function App() {
             <Quotes />
           </Route>
           <Route exact path="/books">
-            <ReadingList />
+            <Books />
           </Route>
         </Switch>
       </Router>

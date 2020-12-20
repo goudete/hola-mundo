@@ -1,5 +1,7 @@
+import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import Navbaroo from '../../components/Navbar/Navbar';
+import { SocialIcon } from 'react-social-icons';
 
 
 function Home() {
@@ -10,19 +12,27 @@ function Home() {
         <h1>
           <span style={{ color: '#81d8f7'}}>Welcome.</span>
         </h1>
-        <h3 style={{ marginTop: "1em"}}>
-          My name is Enrique Goudet. <br/>
-          I am a software engineer from Mexico City <br/>
-          currently living in Los Angeles. <br/>
-
-          I like to build stuff.
-        </h3>
-
-        <p style={{ marginTop: "2em" }}>
-          Twitter: @EnriqueGoudet<br />
-          Instagram: @quiquegdt<br />
-          Github: goudete
-        </p>
+        <div className="bio">
+          <h4>
+            My name is Enrique Goudet. <br/>
+            I am a software engineer from Mexico City
+            currently living in Los Angeles. <br/>
+          </h4>
+          <h4>
+          I like to build stuff and learn new things.
+          </h4>
+        </div>
+        <div className="socialsContainer">
+          <div className="socialsItem">
+            <SocialIcon url="https://twitter.com/EnriqueGoudet" />
+          </div>
+          <div className="socialsItem">
+            <SocialIcon url="https://github.com/goudete" />
+          </div>
+          <div className="socialsItem">
+            <SocialIcon url="https://www.instagram.com/quiquegdt/" />
+          </div>
+        </div>
       </header>
     </div>
   );

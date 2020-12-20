@@ -33,7 +33,7 @@ function Work() {
             </Col>
           </Row>
         </div>
-        <div className="contentSection" style={{ marginBottom: "15em" }}> 
+        <div className="contentSection">
           <Row>
             <Col md={6}>
               <a href="https://www.urbvan.com/"><h2>Urbvan</h2></a>

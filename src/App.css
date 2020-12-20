@@ -2,53 +2,121 @@
 @import "~@blueprintjs/core/lib/css/blueprint.css";
 @import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
 
-.App {
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .App-header {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .Home-header {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+
+  }
+  .bio {
+    margin: 1em;
+  }
+  .socialsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .socialsItem {
+    flex: 1;
+    margin: .5em;
+  }
+
+  .contentSection {
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+  }
+
+  .quoteContainer {
+    margin: 2em;
+  }
+
+  .booksContainer {
+    margin: 2em;
+  }
+
+  .quoteSection {
+    margin-top: 2em;
+  }
+
+  .bookSection {
+    margin-top: 2em;
+  }
 
 }
 
-.App-header {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 55vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .App-header {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
 
-.Home-header {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  .Home-header {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 
-}
+  }
+  .socialsContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .socialsItem {
+    flex: 1;
+    margin: 1em;
+  }
 
-.contentSection {
-  margin-top: 10em;
-}
+  .contentSection {
+    margin-top: 8em;
+    margin-bottom: 8em;
+  }
 
-.quoteContainer {
-  margin-top: 5em;
-  margin-bottom: 15em;
-}
+  .quoteContainer {
+    margin: 5em;
+  }
 
-.booksContainer {
-  margin-top: 5em;
-  margin-bottom: 15em;
-}
+  .booksContainer {
+    margin: 5em;
+  }
 
-.quoteSection {
-  margin-top: 2em;
-}
+  .quoteSection {
+    margin-top: 2em;
+  }
 
-.bookSection {
-  margin-top: 2em;
+  .bookSection {
+    margin-top: 2em;
+  }
 }

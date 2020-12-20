@@ -51,7 +51,7 @@ function Projects() {
             </Col>
           </Row>
         </div>
-        <div className="contentSection bottomSection" style={{ marginBottom: "10em"}}>
+        <div className="contentSection">
           <Row>
             <Col md={6}>
               <h2>Senior Thesis Project</h2>
