@@ -23,16 +23,41 @@ function Work() {
             </Col>
             <Col md={6}>
               <p>
-                Implemented a tagging feature that enables users tag their content using React <br />
-                Implemented an exclude feature, which allows users to exclude multiple articles at once using React<br />
-                Contributed 16 commits with 16,000 lines to the codebase<br />
-                Merged 5 pull requests into production<br />
-                Learned React, JavaScript, and a new codebase within the first 2 weeks of the internship <br />
-                Utilized React.js<br />
+                PeakMetrics is a startup in Los Angeles that 
+                tracks millions of news sites and blogs, 5+ social 
+                platforms, podcasts, and TV/radio to let you know 
+                when your brand is mentioned, automatically. <br />
+                <br />
+                Working here, I learned JavaScript, React and Node.js <br />
+                <br />
+                I came in contact with some incredibly smart and talented people, 
+                and was inspired by their work ethic and knowledge. 
+                Moreover, I refined my learning process.
+                </p>
+            </Col>
+          </Row>
+        </div>
+        <div className="contentSection">
+          <Row>
+            <Col md={6}>
+              <a href="https://shift-en.webflow.io/"><h2>Shift</h2></a>
+            </Col>
+            <Col md={6}>
+              <p>            
+                Shift was an online menu I cofounded with 3 friends. It helped
+                restaurants handle inventory and allowed users to place orders and pay.
+                The user would scan a qr code and get access to the restaurant's interactive menu. <br />
+                <br />
+                This experience taught me how to collaborate with other developers, 
+                how to listen to user feedback and iterate quickly. This was the first 
+                project that got some traction (2 restaurants and 4,000+ users). 
+                Moreover, this experience made me fall in love with software development 
+                and building products that add value to people's lives.
               </p>
             </Col>
           </Row>
         </div>
+
         <div className="contentSection">
           <Row>
             <Col md={6}>
@@ -40,11 +65,10 @@ function Work() {
             </Col>
             <Col md={6}>
               <p>            
-                Alternative transportation startup in Mexico City, pre-established routes around Mexico City. Book your spot through the app<br />
-                Improved efficiency of database by migrating data into new PostgreSQL schema <br />
-                Worked with Pandas <br />
-                Worked with Numpy<br />
-                Utilized Python, Pandas, SQLAlchemy<br />
+                Urbvan is a transportation startup in Mexico City with pre-established routes around Mexico City.<br />
+                <br />
+                Urbvan was my first work experience in tech, and opened my eyes to what was possible. I learned the basics 
+                of Python and data analysis and manipulation. It got me hooked.
               </p>
             </Col>
           </Row>
