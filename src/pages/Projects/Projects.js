@@ -27,9 +27,9 @@ function Projects() {
                 This project came out of an observation of how Instagram was being used (before Instagram shop). 
                 I noticed that many accounts were being created with the purpose of selling things. All of these 
                 types of accounts asked the potential buyer to contact the account through "direct message" to view 
-                their catalogue and place their order.<br />
+                their catalog and place their order.<br />
                 <br />
-                In collaboration with two other developers, we developed an easy to setup catalogue were these budding 
+                In collaboration with two other developers, we developed an easy to setup catalog were these budding 
                 entrepreneurs could place their items and easily accept payments and manage their orders. <br />
                 <br />
                 We successfully onboarded 1 <a href="https://www.instagram.com/saldegusano_">instagram seller.</a> <br />

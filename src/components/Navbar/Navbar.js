@@ -19,11 +19,11 @@ const Navbaroo = () => {
                             <Navbar.Heading>Enrique Goudet</Navbar.Heading>
                         </Link>
                         <Navbar.Divider />
-                        <Link to="/projects">
-                            <Button className="bp3-minimal" icon="projects" text="Projects" />
-                        </Link>
                         <Link to="/work">
                             <Button className="bp3-minimal" icon="briefcase" text="Work" />
+                        </Link>
+                        <Link to="/projects">
+                            <Button className="bp3-minimal" icon="projects" text="Projects" />
                         </Link>
                         <Link to="/quotes">
                             <Button className="bp3-minimal" icon="citation" text="Quotes" />
@@ -54,11 +54,11 @@ const Navbaroo = () => {
             >
                 <div className="menuContainer">
                     <div className="menuItems">
-                        <Link to="/projects">
-                            <Button className="bp3-minimal" icon="projects" text="Projects" style={{ color: 'white', fontSize: '24px', marginTop: '1em' }} />
-                        </Link>
                         <Link to="/work">
                             <Button className="bp3-minimal" icon="briefcase" text="Work" style={{ color: 'white', fontSize: '24px', marginTop: '1em' }} />
+                        </Link>
+                        <Link to="/projects">
+                            <Button className="bp3-minimal" icon="projects" text="Projects" style={{ color: 'white', fontSize: '24px', marginTop: '1em' }} />
                         </Link>
                         <Link to="/quotes">
                             <Button className="bp3-minimal" icon="citation" text="Quotes" style={{ color: 'white', fontSize: '24px', marginTop: '1em' }} />
