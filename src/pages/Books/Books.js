@@ -65,12 +65,6 @@ function ReadingList() {
             </div>
             <div className="bookSection">
               <h5>
-                Sapiens: A Brief History of Humankind <br />
-                - Yuval Noah Harari
-              </h5>
-            </div>
-            <div className="bookSection">
-              <h5>
                 Principles: Life and Work <br />
                 - Ray Dalio
               </h5>
