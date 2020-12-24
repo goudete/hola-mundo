@@ -11,9 +11,7 @@ function ReadingList() {
     <div className="App">
       <Navbaroo />
       <header className="App-header">
-        <h1>
-          Dope books
-        </h1>
+        <span className="landingText">Dope books</span>
       </header>
       <Container>
         <div className="booksContainer">

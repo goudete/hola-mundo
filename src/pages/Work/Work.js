@@ -11,9 +11,9 @@ function Work() {
     <div className="App">
       <Navbaroo />
       <header className="App-header">
-        <h1>
-          Work Experience
-        </h1>
+
+        <span className="landingText">Work Experience</span>
+
       </header>
       <Container>
         <div className="contentSection">

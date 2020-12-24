@@ -11,6 +11,12 @@
         position: absolute;
         top: 65px;
     }
+    .navbaroo {
+        background-color: #182430;
+    }
+    .eg {
+        color: white;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -27,6 +33,12 @@
 @media only screen and (min-width: 992px) {
     .navbarMobile {
         display: none;
+    }
+    .navbaroo {
+        background-color: #182430;
+    }
+    .eg {
+        color: white;
     }
 }
 

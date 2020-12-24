@@ -11,9 +11,7 @@ function Projects() {
     <div className="App">
       <Navbaroo />
       <header className="App-header">
-        <h1>
-          Cool Projects
-        </h1>
+        <span className="landingText">Cool Projects</span>
       </header>
       <Container>
         <div className="contentSection">

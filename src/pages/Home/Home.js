@@ -16,6 +16,10 @@ function Home() {
         <span className="supportingText">
           My name is Enrique Goudet.
           I am a software engineer from Mexico City currently living in Los Angeles.
+          When I'm not coding, I love meeting new people, exploring cities, and doing 
+          adventure sports such as surfing or skiing.
+          <br />
+          Above all, I like to build stuff and learn new things.
         </span>
       </header>
       <div className="socialsContainer">
@@ -29,6 +33,10 @@ function Home() {
             <div className="socialsItem">
               <SocialIcon url="https://www.instagram.com/quiquegdt/" />
             </div>
+            <div className="socialsItem">
+              <SocialIcon url="https://www.linkedin.com/in/enrique-goudet-094430186/" />
+            </div>
+            
         </div>
       </div>
       <div className="cardsContainer">

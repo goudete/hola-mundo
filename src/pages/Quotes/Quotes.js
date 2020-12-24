@@ -11,9 +11,7 @@ function Quotes() {
     <div className="App">
       <Navbaroo />
       <header className="App-header">
-        <h1>
-          Inspiring Quotes
-        </h1>
+        <span className="landingText">Quotes</span>
       </header>
       <Container>
         <div className="quoteContainer">
