@@ -27,6 +27,9 @@
     .navbarMobile {
         display: none;
     }
+    .eg {
+        color: white;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

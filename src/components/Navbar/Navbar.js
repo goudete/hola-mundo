@@ -39,7 +39,9 @@ const Navbaroo = () => {
                 <div className="navbarMobile">
                     <Navbar.Group align={Alignment.LEFT}>
                         <Link to="/">
-                            <Navbar.Heading>Enrique Goudet</Navbar.Heading>
+                            <Navbar.Heading>
+                            <span className="eg">Enrique Goudet</span>
+                            </Navbar.Heading>
                         </Link>
                     </Navbar.Group>
                     <Navbar.Group align={Alignment.RIGHT}>
