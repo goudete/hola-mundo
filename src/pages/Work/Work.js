@@ -6,7 +6,7 @@ import '../../App.css';
 import Navbaroo from '../../components/Navbar/Navbar';
 import pm from '../../imgs/peakmetrics.png';
 import shift from '../../imgs/shift.png';
-import urbvan from '../../imgs/urbvan.png';
+// import urbvan from '../../imgs/urbvan.png';
 
 
 function Work() {
@@ -90,11 +90,11 @@ function Work() {
               <a href="https://www.urbvan.com/">Check it out</a>
             </Col>
             <Col md={6}>
-              <img 
+              {/* <img 
                   src={urbvan}
                   alt="urbvan"
                   className="image urbvan"
-              />
+              /> */}
             </Col>
           </Row>
         </div>
