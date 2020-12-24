@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import '../../App.css';
 import Navbaroo from '../../components/Navbar/Navbar';
 import { SocialIcon } from 'react-social-icons';
-
+import { Card, Elevation, Icon } from "@blueprintjs/core";
+import {
+  Link
+} from "react-router-dom";
 
 function Home() {
   return (
@@ -28,20 +31,44 @@ function Home() {
             </div>
         </div>
       </div>
-      <div className="bio">
-          <h4>
-            
-            <br/>
-            When I'm not coding, I love meeting new people, exploring cities, and doing adventure sports such as surfing or skiing.
-            <br/>
-            I love reading a good book, drinking good coffee and appreciating a thought provoking piece of art.
-            <br/>
-            I also love a good rave.
-            <br/>
-            Above all, I like to build stuff and learn new things.
-          </h4>
-
+      <div className="cardsContainer">
+        <div className="cards">
+          <Link to="/work">
+            <Card className="card" interactive={true} elevation={Elevation.ONE}>
+              <div className="cardText">
+                Work
+              </div>
+              <div className="cardIcon">
+                <Icon icon="arrow-right" iconSize={28} />
+              </div>
+            </Card>
+          </Link>
+          <Link to="/projects">
+            <Card className="card" interactive={true} elevation={Elevation.ONE}>
+              <div className="cardText">Projects</div>
+              <div className="cardIcon">
+                <Icon icon="arrow-right" iconSize={28} />
+              </div>
+            </Card>
+          </Link>
+          <Link to="/quotes">
+            <Card className="card" interactive={true} elevation={Elevation.ONE}>
+              <div className="cardText">Quotes</div>
+              <div className="cardIcon">
+                <Icon icon="arrow-right" iconSize={28} />
+              </div>
+            </Card>
+          </Link>
+          <Link to="/quotes">
+            <Card className="card" minimal interactive={true} elevation={Elevation.ONE}>
+              <div className="cardText">Books</div>
+              <div className="cardIcon">
+                <Icon icon="arrow-right" iconSize={28} />
+              </div>
+            </Card>
+          </Link>
         </div>
+      </div>
     </div>
   );
 }
