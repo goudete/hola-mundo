@@ -67,7 +67,7 @@ function Home() {
               </div>
             </Card>
           </Link>
-          <Link to="/quotes">
+          <Link to="/books">
             <Card className="card" minimal interactive={true} elevation={Elevation.ONE}>
               <div className="cardText">Books</div>
               <div className="cardIcon">
